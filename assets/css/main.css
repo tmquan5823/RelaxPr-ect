@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #95002f;;
+}
+
+#title{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin:  3%;
+    color: #ffd000;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.content-item{
+    display: inline-block;
+    text-align: center;
+}
+
+.content-link {
+    text-decoration: none;
+    color: #0dff00;
+}
+
+.btn {
+    margin: 25px;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    border: 10px solid black;
+    border-radius: 20%;
+}
+
+.diceeGameBtn{
+    background: #ffffff url('../images/diceegame.png') center/cover no-repeat;
+}
+
+.drumKitBtn{
+    background: #ffffff url('../images/bid-drum-set-red-color-600nw-1458134219.webp') center/cover no-repeat;
+}
+
+.theSimonGameBtn{
+    background: #ffffff url('../images/Simon_Electronic_Game.jpg') center/cover no-repeat;
+}
